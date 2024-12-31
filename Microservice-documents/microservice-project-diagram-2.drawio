@@ -1,0 +1,62 @@
+<mxfile host="app.diagrams.net" modified="2024-06-23T14:59:15.729Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="w9BhxI1zreqs_sGIODvN" version="24.6.2" type="github">
+  <diagram name="Page-1" id="-pzjGoT4oe2uqOFF3yGi">
+    <mxGraphModel dx="880" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GVWGb0fROOId4qHxS9iY-1" value="currency-conversion-service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GVWGb0fROOId4qHxS9iY-2" value="Load Balancer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GVWGb0fROOId4qHxS9iY-3" value="Naming Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GVWGb0fROOId4qHxS9iY-4" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;currency-exchange-service-instance-2&lt;/span&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="270" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GVWGb0fROOId4qHxS9iY-5" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;currency-exchange-service-instance-3&lt;/span&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="270" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GVWGb0fROOId4qHxS9iY-6" value="currency-exchange-service-instance-1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="270" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GVWGb0fROOId4qHxS9iY-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.521;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GVWGb0fROOId4qHxS9iY-2" target="GVWGb0fROOId4qHxS9iY-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="400" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVWGb0fROOId4qHxS9iY-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.55;entryY=-0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GVWGb0fROOId4qHxS9iY-2" target="GVWGb0fROOId4qHxS9iY-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="340" as="sourcePoint" />
+            <mxPoint x="340" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVWGb0fROOId4qHxS9iY-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.28;entryY=-0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GVWGb0fROOId4qHxS9iY-2" target="GVWGb0fROOId4qHxS9iY-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="230" as="sourcePoint" />
+            <mxPoint x="450" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVWGb0fROOId4qHxS9iY-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GVWGb0fROOId4qHxS9iY-1" target="GVWGb0fROOId4qHxS9iY-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="450" y="220" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVWGb0fROOId4qHxS9iY-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GVWGb0fROOId4qHxS9iY-2" target="GVWGb0fROOId4qHxS9iY-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="450" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
